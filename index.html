@@ -29,6 +29,72 @@
             </ul>
             <a href="#" class="nav-appointment-btn">Appointment</a>
         </nav>
+        <!-- forms -->
+        <div class="wrapper active-popup" id="form-link">
+            <div class="icon-close">
+                <ion-icon name="close-outline"></ion-icon>
+                    </div>
+            <div class="box1" id="login-box">
+                <div class="form-box logo">
+                    <h2>Login</h2>
+                </div>
+                
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" length= "200" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Remember Me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="login-register">
+                        <p>Dont have an account?<a href="#box2" class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+            
+    <!---Registration-->
+            <div class="box2" id="register-box">
+                <div class="form-box Register">
+                    <h2>Registration</h2>
+                </div>
+                
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">I agree to the term & conditions</label>
+                
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account?<a href="#box1" class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+           
+        </div>
 
         <!---contentts-->
         <div class="hero-content">
@@ -38,13 +104,13 @@
                 <div class="hero-text-btn">
                     <a href="#">  
                         <i class="fa-solid fa-magnifying-glass"></i>Find Doctor</a>
-                    <a href="#">
+                    <a href="form.html">
                         <i class="fa-solid fa-check"></i> Book Appointment</a>
                 </div>
             </div>
             <!--img-->
             <div class="hero-img">
-                <img src="groupdoc.png" alt="" >
+                <img src="icon/groupdoc.png" alt="" >
             </div>
         </div>
     </section><!--hero-end-->
@@ -68,7 +134,32 @@
             </button>
         </div>
     </div>
-
+    <!--Chat bot-->
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Chat support</h4>
+                        <p class="chatbox__description--header">Hi. My name is Sam. How can I help you?</p>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button">Send</button>
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button><img src="chat.png"  href="#chat__support"/></button>
+            </div>
+        </div>
+    </div>
     <section class="what-we-provide">
 <!--box1-->
         <div class="w-info-box1">
@@ -110,9 +201,9 @@
         <section id="our-story">
             <!--img-->
             <div class="our-story-img">
-                <img src="doctwithpat2.jpg" >
+                <img src="icon/doctwithpat2.jpg" >
                 <!--video play btn-->
-                <a href=""  class="video-play-btn">
+                <a href="https://youtu.be/JkFoMb9CxlM"  class="video-play-btn">
                     <i class="fa-solid fa-play"></i>
                     Play video 
                 </a>
@@ -321,7 +412,7 @@
                                     <div class="team-box">
                                         <!--img-->
                                     <div class="team-img">
-                                        <img src="doctor10.jpeg">
+                                        <img src="icon/doctor10.jpeg">
                                     </div>
                                 <div class="team-text">
                                     <strong>Dr. Sharma</strong>
@@ -334,7 +425,7 @@
                                 <div class="team-box">
                                     <!--img-->
                                 <div class="team-img">
-                                    <img src="doctor2.jpeg">
+                                    <img src="icon/doctor2.jpeg">
                                 </div>
                             <div class="team-text">
                                 <strong>Dr. Dexarone</strong>
@@ -347,7 +438,7 @@
                             <div class="team-box">
                                 <!--img-->
                             <div class="team-img">
-                                <img src="doctor3.jpeg">
+                                <img src="icon/doctor3.jpeg">
                             </div>
                         <div class="team-text">
                             <strong>Dr. Dexa</strong>
@@ -360,7 +451,7 @@
                         <div class="team-box">
                             <!--img-->
                         <div class="team-img">
-                            <img src="doctor4.jpeg">
+                            <img src="icon/doctor4.jpeg">
                         </div>
                     <div class="team-text">
                         <strong>Dr. Arone</strong>
@@ -373,7 +464,7 @@
                     <div class="team-box">
                         <!--img-->
                     <div class="team-img">
-                        <img src="doctor6.jpeg">
+                        <img src="icon/doctor6.jpeg">
                     </div>
                 <div class="team-text">
                     <strong>Dr. Drone</strong>
@@ -386,7 +477,7 @@
                 <div class="team-box">
                     <!--img-->
                 <div class="team-img">
-                    <img src="doctor7.jpeg">
+                    <img src="icon/doctor7.jpeg">
                 </div>
             <div class="team-text">
                 <strong>Dr. Peone</strong>
@@ -399,7 +490,7 @@
             <div class="team-box">
                 <!--img-->
             <div class="team-img">
-                <img src="doctor5.jpeg">
+                <img src="icon/doctor5.jpeg">
             </div>
         <div class="team-text">
             <strong>Dr. Klone</strong>
@@ -424,7 +515,7 @@
             <div class="testimonials-content">
                 <!--image-->
                 <div class="testimonials-img">
-                    <img src="patient1.jpg">
+                    <img src="icon/patient1.jpg">
                 </div>
                 <!--container-->
                 <div class="testimonials-box-container">
@@ -439,7 +530,7 @@
                                 <div class="t-profile">
                                     <!--img-->
                                     <div class="t-profile-img">
-                                        <img src="p1.jpg">
+                                        <img src="icon/p1.jpg">
                                     </div>
                                     <!--text-->
                                     <div class="t-profile-text">
@@ -465,7 +556,7 @@
                                     <div class="t-profile">
                                         <!--img-->
                                         <div class="t-profile-img">
-                                            <img src="p2.jpg">
+                                            <img src="icon/p2.jpg">
                                         </div>
                                         <!--text-->
                                         <div class="t-profile-text">
@@ -491,7 +582,7 @@
                                 <div class="t-profile">
                                     <!--img-->
                                     <div class="t-profile-img">
-                                        <img src="p3.jpg">
+                                        <img src="icon/p3.jpg">
                                     </div>
                                     <!--text-->
                                     <div class="t-profile-text">
@@ -517,7 +608,7 @@
                                     <div class="t-profile">
                                         <!--img-->
                                         <div class="t-profile-img">
-                                            <img src="p4.jpg">
+                                            <img src="icon/p4.jpg">
                                         </div>
                                         <!--text-->
                                         <div class="t-profile-text">
@@ -560,10 +651,12 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In voluptatum, similique optio saepe.</p>
                     <!--social -box-->
                     <div class="footer-socials-box">
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-linkedin"></i>
-                        <i class="fa-brands fa-youtube"></i>
+                        <a href="">
+                        <i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/cmrit.bangalore?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> <i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/CMRInstituteOfTechnologyBangalore/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        
                     </div>
                 </div><!--Company-box-end-->
                 <!--linkkss-->
@@ -575,7 +668,7 @@
                         <li><a href="#our-services">Services</a></li>
                         <li><a href="#">Portfolio</a></li>
                     </ul>
-                </div>
+                </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
                 <!--linkkss-->
                 <div class="footer-link-box">
                     <strong>Medical Procedures</strong>
@@ -608,6 +701,12 @@
                 </div>
             </div>
         </footer>
+
+        <!--form  -->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="scrip.js"></script>
+        <script src="./app.js"></script>
 
         <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
